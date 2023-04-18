@@ -1,0 +1,1183 @@
+<div class="morebutton" id="more" onclick="showMenu()">
+    </div>
+    <div class="main-body">
+        <div class="left-menu" id="left-menu">
+            <div class="left-menu-parent">
+                <img class="logo" src="Resources/Images/logo-png-150x81.png" />
+                <div class="menu-items-parent">
+                    <span class="menu-items" onclick="window.location='index.html'">Home</span>
+                    <span class="menu-items" onclick="window.location='menu.html'" style=" --i: 1;
+                    color: whitesmoke;">Menu</span>
+                    <span class="menu-items" onclick="window.location='About Us.html'">About Us</span>
+                    <span class="menu-items" onclick="window.location='Contact Us.html'">Contact Us</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="sub-body">
+            <div class="slider" style="height: 50vh;background-image: url('Resources/Images/5.svg');">
+
+                <div class="right-menu" style="height: 100%;padding: 10px;box-sizing: border-box;text-align: center;">
+
+                    <div class="right-menu-parent" style="height: 100%;text-align: center;">
+                        <img src="Resources/Images/divider-free-img-1.png" />
+                        <span style="font-family: 'special';font-size: 60px;">Our Menu</span>
+                        <span style="font-family: 'special';">Loved by Thousands​</span>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="body" id="main-body">
+                <div class="reviews" id="review3">
+                    <span style="font-size: 20px;display: block;margin-top: 20px;font-family: 'special';">All prices are subjected to change without prior notice due to suppliers price changes.</span>
+                    <span style="font-size: 15px;display: block;margin-top: 20px;">
+                        please contact us on 077 042 5291 for any clarifications
+
+                    </span>
+                    <img src="Resources/Images/divider-free-img-1.png" />
+
+                    <div class="review-div">
+
+                    </div>
+                </div>
+
+                <div class="reviews" id="review4">
+                    <!-- <span style="font-size: 60px;display: block;margin-top: 20px;font-family: 'special';">They All Love Our Food</span> -->
+    <!-- <img src="Resources/Images/divider-free-img-1.png" /> -->
+    <!-- <span style="display: block;">Some reviews from our lovely customers</span> -->
+    <div class="review-div">
+        <div class="review-description" style="background-image: url('Resources/Images/sha.jpg');background-size: cover;border-radius: 10px;">
+            <div class="itt">
+                <p style="font-size: 30px;font-family: 'special';">Freak Shake
+                </p>
+                <span style="font-size: 20px;">700 LKR</span>
+            </div>
+        </div>
+        <div class="review-description" style="background-image: url('Resources/Images/sha2.jpg');background-size: cover;border-radius: 10px;">
+            <div class="itt">
+                <p style="font-size: 30px;font-family: 'special';">Vibe Special
+                </p>
+                <span style="font-size: 20px;">2100 LKR - Regular</span>
+                <span style="font-size: 20px;">3560 LKR - Large</span>
+
+            </div>
+        </div>
+        <div class="review-description" style="background-image: url('Resources/Images/sha3.jpg');background-size: cover;border-radius: 10px;">
+            <div class="itt">
+                <div class="itt">
+                    <p style="font-size: 30px;font-family: 'special';">Ice Coffee
+                    </p>
+                    <span style="font-size: 20px;">400 LKR</span>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="reviews" id="review">
+        <span style="font-size: 60px;display: block;margin-top: 20px;font-family: 'special';">Are You Hungry</span>
+        <img src="Resources/Images/divider-free-img-1.png" />
+        <span style="font-size: 20px;display: block;margin-top: 20px;">
+                        Come, Dine With Us!<br/>
+                        Tasty foods always can make your moments unforgettable.
+
+                    </span>
+        <div class="review-div">
+
+        </div>
+    </div>
+    <div class="about" style="display: flexbox;align-items: center;background-image: url('Resources/Images/food.avif');background-repeat: repeat;background-attachment: fixed;" id="about">
+        <div class="about-in" style="width: 80% !important;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Cheese Kottu
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 15px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+                        <tr>
+                            <td style="text-align: left;">Veggie</td>
+                            <td style="text-align: right;">450 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Egg</td>
+                            <td style="text-align: right;">480 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Sausages</td>
+                            <td style="text-align: right;">520 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Chicken</td>
+                            <td style="text-align: right;">550 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Beef</td>
+                            <td style="text-align: right;">650 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Seafood</td>
+                            <td style="text-align: right;">700 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Mutton</td>
+                            <td style="text-align: right;">860 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Mix</td>
+                            <td style="text-align: right;">1050 LKR</td>
+
+                        </tr>
+                    </table>
+
+                </p>
+            </h1>
+            <p style="font-weight: bolder;">( With Extra Cheese +100LKR )<br> ( With Extra Spicy +50LKR )</p>
+
+
+
+
+
+
+
+        </div>
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Fried Rice
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 15px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+                        <tr>
+                            <td style="text-align: left;">Veggie</td>
+                            <td style="text-align: right;">450 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Egg</td>
+                            <td style="text-align: right;">500 LKR</td>
+
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: left;">Chicken</td>
+                            <td style="text-align: right;">600 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Beef</td>
+                            <td style="text-align: right;">740 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Seafood</td>
+                            <td style="text-align: right;">840 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Mutton</td>
+                            <td style="text-align: right;">870 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Mix</td>
+                            <td style="text-align: right;">1250 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="font-weight: bold;">Vibe Special
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Regular</td>
+                            <td style="text-align: right;">2100 LKR
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Large</td>
+                            <td style="text-align: right;">3560 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Mongolian Rice
+
+                            </td>
+                            <td style="text-align: right;">1410 LKR</td>
+
+                        </tr>
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <div class="about" style="display: flexbox;align-items: center;background-image: url('Resources/Images/food.avif');background-repeat: repeat;background-attachment: fixed;" id="about2" style="flex-direction: row-reverse;margin-top: 20px;">
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Fusilli or Spaghetti
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+                        <tr>
+                            <td style="text-align: left;">Veggie</td>
+                            <td style="text-align: right;">620 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Egg</td>
+                            <td style="text-align: right;">660 LKR</td>
+
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: left;">Chicken</td>
+                            <td style="text-align: right;">780 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Beef</td>
+                            <td style="text-align: right;">900 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Seafood</td>
+                            <td style="text-align: right;">1060 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Mutton</td>
+                            <td style="text-align: right;">1100 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Mix</td>
+                            <td style="text-align: right;">1480 LKR</td>
+
+                        </tr>
+
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+            <p style="font-weight: bolder;">( With Extra Cheese +100LKR )<br> ( With Extra Spicy +50LKR )</p>
+
+
+
+
+        </div>
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Spicy fry kottu
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+                        <tr>
+                            <td style="text-align: left;">Veggie</td>
+                            <td style="text-align: right;">540 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Egg</td>
+                            <td style="text-align: right;">630 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Sausages</td>
+                            <td style="text-align: right;">670 LKR</td>
+
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: left;">Chicken</td>
+                            <td style="text-align: right;">780 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Beef</td>
+                            <td style="text-align: right;">960 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Seafood</td>
+                            <td style="text-align: right;">1060 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Mutton</td>
+                            <td style="text-align: right;">1100 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Mix</td>
+                            <td style="text-align: right;">1480 LKR</td>
+
+                        </tr>
+
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+            <p style="font-weight: bolder;">( Extra Spicy +50 LKR )
+
+            </p>
+
+
+
+
+        </div>
+    </div>
+
+    <div class="about" style="display: flexbox;align-items: center;background-image: url('Resources/Images/food.avif');background-repeat: repeat;background-attachment: fixed;" id="about3" style="flex-direction: row-reverse;margin-top: 20px;">
+
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Biriyani
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+
+
+                        <tr>
+                            <td style="text-align: left;">Chicken</td>
+                            <td style="text-align: right;">750 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Beef</td>
+                            <td style="text-align: right;">800 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Shrimps</td>
+                            <td style="text-align: right;">820 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Mutton</td>
+                            <td style="text-align: right;">1020 LKR</td>
+
+                        </tr>
+
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+
+
+
+
+        </div>
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Nasi Goreng
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+
+                        <tr>
+                            <td style="text-align: left;">Egg</td>
+                            <td style="text-align: right;">600 LKR</td>
+
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: left;">Chicken</td>
+                            <td style="text-align: right;">750 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Beef</td>
+                            <td style="text-align: right;">900 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Seafood</td>
+                            <td style="text-align: right;">980 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Mutton</td>
+                            <td style="text-align: right;">1020 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Mix</td>
+                            <td style="text-align: right;">1420 LKR</td>
+
+                        </tr>
+
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+            <p style="font-weight: bolder;">( Extra Spicy +50 LKR )
+
+            </p>
+
+
+
+
+        </div>
+    </div>
+
+    <div class="about" style="display: flexbox;align-items: center;background-image: url('Resources/Images/food.avif');background-repeat: repeat;background-attachment: fixed;" id="about4" style="flex-direction: row;margin-top: 20px;">
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Biriyani Sawan
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+
+
+                        <tr>
+                            <td style="text-align: left;">Chicken</td>
+                            <td style="text-align: right;">3600 LKR - Serving For Four</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Beef</td>
+                            <td style="text-align: right;">4000 LKR - Serving For Four</td>
+
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: left;">Mutton</td>
+                            <td style="text-align: right;">4500 LKR - Serving For Four</td>
+
+                        </tr>
+
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+
+
+
+
+        </div>
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Soup
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+                        <tr>
+                            <td style="text-align: left;">Veggie</td>
+                            <td style="text-align: right;">300 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Chicken</td>
+                            <td style="text-align: right;">380 LKR</td>
+
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: left;">Chicken W/ Veg</td>
+                            <td style="text-align: right;">500 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Tom Yum</td>
+                            <td style="text-align: right;">900 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Seafood</td>
+                            <td style="text-align: right;">800 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Beef</td>
+                            <td style="text-align: right;">600 LKR</td>
+
+                        </tr>
+
+
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+            <p style="font-weight: bolder;">( Extra Spicy +50 LKR )
+
+            </p>
+
+
+
+
+        </div>
+
+    </div>
+
+    <div class="about" style="display: flexbox;align-items: center;background-image: url('Resources/Images/food.avif');background-repeat: repeat;background-attachment: fixed;" id="about5" style="flex-direction: row;margin-top: 20px;">
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Burgers
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+
+                        <tr>
+                            <td style="text-align: left;">Veggie</td>
+                            <td style="text-align: right;">400 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Chicken</td>
+                            <td style="text-align: right;">700 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Crispy Chicken</td>
+                            <td style="text-align: right;">780 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Beef</td>
+                            <td style="text-align: right;"></td>
+
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: left;">Mutton</td>
+                            <td style="text-align: right;"></td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Eiffel Burger</td>
+                            <td style="text-align: right;">1800 LKR</td>
+
+                        </tr>
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+
+            <p style="font-weight: bolder;">( with french fries +150 LKR )
+
+            </p>
+
+
+
+        </div>
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Submarine
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+                        <tr>
+                            <td style="text-align: left;">Veggie</td>
+                            <td style="text-align: right;">750 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Chicken</td>
+                            <td style="text-align: right;">800 LKR</td>
+
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: left;">Crispy Chicken</td>
+                            <td style="text-align: right;">900 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Beef</td>
+                            <td style="text-align: right;">900 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Tuna</td>
+                            <td style="text-align: right;">1050 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Shrimps</td>
+                            <td style="text-align: right;">950 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Mutton</td>
+                            <td style="text-align: right;">1200 LKR</td>
+
+                        </tr>
+
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+            <p style="font-weight: bolder;">( with french fries + 150 LKR )
+
+            </p>
+
+
+
+
+        </div>
+
+    </div>
+    <div class="about" style="display: flexbox;align-items: center;background-image: url('Resources/Images/food.avif');background-repeat: repeat;background-attachment: fixed;" id="about6" style="flex-direction: row;margin-top: 20px;">
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">French Toast
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+
+                        <tr>
+                            <td style="text-align: left;">Ham & Cheese</td>
+                            <td style="text-align: right;">630 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">S’mores</td>
+                            <td style="text-align: right;">450 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Apple Pie</td>
+                            <td style="text-align: right;">450 LKR</td>
+
+                        </tr>
+
+
+
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+
+
+
+
+
+        </div>
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Starters
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+                        <tr>
+                            <td style="text-align: left;">French Fries
+                            </td>
+                            <td style="text-align: right;">510 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Chicken Nuggets
+
+                            </td>
+                            <td style="text-align: right;">500 LKR</td>
+
+                        </tr>
+
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+            <p style="font-weight: bolder;">( with french fries + 150 LKR )
+
+            </p>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="about" style="display: flexbox;align-items: center;background-image: url('Resources/Images/food.avif');background-repeat: repeat;background-attachment: fixed;" id="about7" style="flex-direction: row;margin-top: 20px;">
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Gelato Sundae
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+
+                        <tr>
+                            <td style="text-align: left;">Chocolate</td>
+                            <td style="text-align: right;">300 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Vanilla</td>
+                            <td style="text-align: right;">300 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Chocolate+Vanilla+Chocolate</td>
+                            <td style="text-align: right;">300 LKR</td>
+
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: left;">Vanilla+Chocolate+Vanilla</td>
+                            <td style="text-align: right;">300 LKR</td>
+
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: left;">Mango with Ice Cream</td>
+                            <td style="text-align: right;">350 LKR</td>
+
+                        </tr>
+
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+
+
+
+
+
+        </div>
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Fresh Juice
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+                        <tr>
+                            <td style="text-align: left;">Mango
+                            </td>
+                            <td style="text-align: right;">300 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Avocado
+
+
+                            </td>
+                            <td style="text-align: right;">300 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Watermelon
+
+
+                            </td>
+                            <td style="text-align: right;">300 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Orange
+
+
+                            </td>
+                            <td style="text-align: right;">300 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Pineapple
+
+
+                            </td>
+                            <td style="text-align: right;">300 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Passion Fruit
+
+
+
+                            </td>
+                            <td style="text-align: right;">300 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Apple
+
+
+                            </td>
+                            <td style="text-align: right;">300 LKR</td>
+
+                        </tr>
+
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+    <div class="about" style="display: flexbox;align-items: center;background-image: url('Resources/Images/food.avif');background-repeat: repeat;background-attachment: fixed;" id="about8" style="flex-direction: row;margin-top: 20px;">
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Milk Shake
+
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+
+                        <tr>
+                            <td style="text-align: left;">Chocolate</td>
+                            <td style="text-align: right;">350 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Vanilla</td>
+                            <td style="text-align: right;">350 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Strawberry</td>
+                            <td style="text-align: right;">350 LKR</td>
+
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: left;">Milo</td>
+                            <td style="text-align: right;">400 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Brownie Shake
+                            </td>
+                            <td style="text-align: right;">550 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Nutella Shake
+                            </td>
+                            <td style="text-align: right;">600 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Freak Shake
+
+                            </td>
+                            <td style="text-align: right;">700 LKR</td>
+
+                        </tr>
+
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+
+
+
+
+
+        </div>
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Mojito
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+                        <tr>
+                            <td style="text-align: left;">Lime & Mint
+
+                            </td>
+                            <td style="text-align: right;">350 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Spicy
+
+                            </td>
+                            <td style="text-align: right;">400 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Passion Fruit
+
+
+
+                            </td>
+                            <td style="text-align: right;">400 LKR</td>
+
+                        </tr>
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+    <div class="about" style="display: flexbox;align-items: center;background-image: url('Resources/Images/food.avif');background-repeat: repeat;background-attachment: fixed;" id="about9" style="flex-direction: row;margin-top: 20px;">
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Iced Tea
+
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+
+                        <tr>
+                            <td style="text-align: left;">Lime
+                            </td>
+                            <td style="text-align: right;">300 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Apple</td>
+                            <td style="text-align: right;">350 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Black Current</td>
+                            <td style="text-align: right;">350 LKR</td>
+
+                        </tr>
+
+
+
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+
+
+
+
+
+        </div>
+        <div class="about-in" style="width: 80%;">
+            <h1 style="font-size: 40px;text-align: center;font-family:'special'; ">Dessert
+
+                <p style="text-align:center;font-weight: bold;font-family: 'default';font-size: 20px;padding: 30px;box-sizing: border-box;">
+                    <table style="width: 100%;font-size: 20px;font-weight: lighter;">
+                        <tr>
+                            <td style="text-align: left;">Mug Cake with Ice Cream
+                            </td>
+                            <td style="text-align: right;">400 LKR</td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">Brownie with Ice Cream
+
+
+
+                            </td>
+                            <td style="text-align: right;">400 LKR</td>
+
+                        </tr>
+
+
+
+                    </table>
+
+                </p>
+            </h1>
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <div class="reviews" id="review2">
+        <img src="Resources/Images/divider-free-img-1.png" />
+        <span style="font-size: 60px;display: block;margin-top: 20px;font-family: 'special';">Open Hours</span>
+
+        <span style="font-size: 20px;display: block;margin-top: 20px;">
+                        Mon - Fri <br/>09 AM --- 10 PM<br/><br/>
+                        Sat - Sun    <br/>09 AM --- 10 PM
+
+                    </span>
+        <div class="review-div">
+
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <span style="font-family: 'special';">Let's Eat.</span>
+        <img src="Resources/Images/divider-free-img-1.png" />
+
+        <span> </span> <span> </span>
+        <span style="font-size: 30px;">Call Us : 077 042 5291</span>
+        <span> </span>
+        <span style="font-size: 20px;margin-top: 20px;">258/4/1, </span>
+        <span style="font-size: 20px;">DS Senanayake Veediya,</span>
+        <span style="font-size: 20px;">Kandy</span>
+
+        <div style="display:flex;justify-content: center;align-items: center;margin:20px;box-sizing: border-box;">
+            <a href="https://www.facebook.com/cafethevibe/" target="_blank">
+                <button class="mb-2" style="background-image: url('Resources/Images/5279111_network_fb_social media_facebook_facebook logo_icon.png');"></button>
+            </a>
+            <a href="https://www.instagram.com/cafethevibe/?hl=en" target="_blank">
+                <button class="mb-2" style="background-image: url('Resources/Images/5279112_camera_instagram_social media_instagram logo_icon.png')"></button>
+            </a>
+            <a href="https://www.tripadvisor.com/Restaurant_Review-g304138-d12957014-Reviews-Cafe_the_Vibe-Kandy_Kandy_District_Central_Province.html" target="_blank">
+                <button class="mb-2" style="background-image: url('Resources/Images/4691228_tripadvisor_icon.png')"></button>
+            </a>
+        </div>
+
+    </div>
+    <div class="fot">
+        <div class="fot1">Copyright © 2023 DynamicBiz</div>
+        <div class="fot2">Powered by DynamicBiz</div>
+
+    </div>
+    </div>
+    </div>
+
+
+    </div>
+
+    <script src="JavaScript/script.js"></script>
+    <script>
+        document.getElementById("review3").className = "reviews-animation";
+        document.getElementById("review").className = "reviews-animation";
+
+        window.addEventListener('scroll', (event) => {
+            const rect = document.getElementById("about").getBoundingClientRect();
+            const rect9 = document.getElementById("about2").getBoundingClientRect();
+            const rect11 = document.getElementById("about3").getBoundingClientRect();
+            const rect12 = document.getElementById("about4").getBoundingClientRect();
+            const rect13 = document.getElementById("about5").getBoundingClientRect();
+
+            const rect14 = document.getElementById("about6").getBoundingClientRect();
+            const rect15 = document.getElementById("about7").getBoundingClientRect();
+
+            const rect16 = document.getElementById("about8").getBoundingClientRect();
+
+            const rect17 = document.getElementById("about9").getBoundingClientRect();
+
+
+            const rect5 = document.getElementById("review").getBoundingClientRect();
+            const rect7 = document.getElementById("review2").getBoundingClientRect();
+            const rect8 = document.getElementById("review3").getBoundingClientRect();
+            const rect10 = document.getElementById("review3").getBoundingClientRect();
+
+
+            const rect6 = document.getElementById("footer").getBoundingClientRect();
+
+            if (rect.top <= window.innerHeight) {
+                document.getElementById("about").className = "about-animation";
+            }
+
+
+            if (rect5.top <= window.innerHeight) {
+                document.getElementById("review").className = "reviews-animation";
+            }
+            if (rect7.top <= window.innerHeight) {
+                document.getElementById("review2").className = "reviews-animation";
+            }
+            if (rect8.top <= window.innerHeight) {
+                document.getElementById("review3").className = "reviews-animation";
+            }
+            if (rect10.top <= window.innerHeight) {
+                document.getElementById("review4").className = "reviews-animation";
+            }
+            if (rect9.top <= window.innerHeight) {
+                document.getElementById("about2").className = "about-animation";
+            }
+            if (rect11.top <= window.innerHeight) {
+                document.getElementById("about3").className = "about-animation";
+            }
+            if (rect12.top <= window.innerHeight) {
+                document.getElementById("about4").className = "about-animation";
+            }
+            if (rect13.top <= window.innerHeight) {
+                document.getElementById("about5").className = "about-animation";
+            }
+            if (rect14.top <= window.innerHeight) {
+                document.getElementById("about6").className = "about-animation";
+            }
+            if (rect15.top <= window.innerHeight) {
+                document.getElementById("about7").className = "about-animation";
+            }
+            if (rect16.top <= window.innerHeight) {
+                document.getElementById("about8").className = "about-animation";
+            }
+            if (rect17.top <= window.innerHeight) {
+                document.getElementById("about9").className = "about-animation";
+            }
+            if (rect6.top <= window.innerHeight) {
+                let ele = (document.getElementById("footer"));
+                let span = ele.getElementsByTagName("span");
+                for (i = 0; i < span.length; i++) {
+                    span[i].className = "span-ani";
+                }
+            }
+        });
+    </script>

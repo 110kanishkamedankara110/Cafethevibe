@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" it’s a friendly staff surrounded with calm and relaxing background. Anyone can have a delicious meal for a reasonable price. As well as, it is an ideal place for a get together, parties or any kind of family functions.">
+    <meta name="author" content="Kanishka medankara">
+    <meta name="keywords" content="cafe,kandy,cafe the vibe,food">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="Resources/Images/headerlogo.png">
+    <title>About Us - Cafe The Vibe</title>
+</head>
+
+<body>
+    <div class="morebutton" id="more" onclick="showMenu()">
+    </div>
+    <div class="main-body">
+        <div class="left-menu" id="left-menu">
+            <div class="left-menu-parent">
+                <img class="logo" src="Resources/Images/logo-png-150x81.png" />
+                <div class="menu-items-parent">
+                    <span class="menu-items" onclick="window.location='index.html'">Home</span>
+                    <span class="menu-items" onclick="window.location='menu.html'">Menu</span>
+                    <span class="menu-items" style=" --i: 1;
+                    color: whitesmoke;" onclick="window.location='About Us.html'">About Us</span>
+                    <span class="menu-items" onclick="window.location='Contact Us.html'">Contact Us</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="sub-body">
+
+
+            <div class="body" id="main-body">
+
+
+                <div class="party blu" style="display: flex;justify-content: center;align-items: center;">
+                    <div id="party">
+                        <img src="Resources/Images/divider-free-img-1.png" />
+
+                        <span style="font-size: 40px;font-family: 'special';color:#eaa22e;display: block;">Know More</span>
+                        <span style="font-size: 100px;font-family: 'special';color: whitesmoke;display: block;">About Us</span>
+                    </div>
+                </div>
+                <div class="reviews" id="review">
+                    <span style="font-size: 60px;display: block;margin-top: 20px;font-family: 'special';">Since 2017</span>
+                    <img src="Resources/Images/divider-free-img-1.png" />
+                    <span style="font-size: 20px;display: block;margin-top: 20px;">
+                        it’s a friendly staff surrounded with calm and relaxing background. Anyone can have a delicious meal for a reasonable price. As well as, it is an ideal place for a get together, parties or any kind of family functions. 
+
+                    </span>
+                    <div class="review-div">
+
+                    </div>
+                </div>
+                <div class="about" id="about">
+                    <div class="about-in">
+                        <h1 style="font-size: 60px;text-align: center;font-family:'special';">Our Delicious Story​</h1>
+
+                        <p>
+                            To satisfy the most lacking dining experience in Kandy, Amila,Sawan and Hasitha came up with the ideal plan to open up Cafe the Vibe on October 6th in 2017. Within a very short time Cafe the Vibe became the best hangout spot in Kandy, fulfilling the much
+                            needed unique dining experience for everyone around.
+                        </p>
+                        <div style="display:flex;justify-content: center;align-items: center;margin:20px;box-sizing: border-box;">
+                            <!-- <button class="menu-buttons" style="border: solid 1px #4e0707ea;">More Details</button> -->
+                        </div>
+                    </div>
+                    <div class="about-im">
+                        <img width="100%" src="Resources/Images/60348264_711706875898814_4087251918672363520_o-1536x1025.jpg">
+                    </div>
+                </div>
+
+                <div class="footer" id="footer">
+                    <span style="font-family: 'special';">Let's Eat.</span>
+                    <img src="Resources/Images/divider-free-img-1.png" />
+
+                    <span> </span> <span> </span>
+                    <span style="font-size: 20px;"><a style="text-decoration: none;color: white;" href="tel:077 042 5291">Call Us : 077 042 5291</a></span>
+                    <span> </span>
+                    <span style="font-size: 20px;margin-top: 20px;">258/4/1, </span>
+                    <span style="font-size: 20px;">DS Senanayake Veediya,</span>
+                    <span style="font-size: 20px;">Kandy</span>
+
+                    <div style="display:flex;justify-content: center;align-items: center;margin:20px;box-sizing: border-box;">
+                        <a href="https://www.facebook.com/cafethevibe/" target="_blank">
+                            <button class="mb-2" style="background-image: url('Resources/Images/5279111_network_fb_social media_facebook_facebook logo_icon.png');"></button>
+                        </a>
+                        <a href="https://www.instagram.com/cafethevibe/?hl=en" target="_blank">
+                            <button class="mb-2" style="background-image: url('Resources/Images/5279112_camera_instagram_social media_instagram logo_icon.png')"></button>
+                        </a>
+                        <a href="https://www.tripadvisor.com/Restaurant_Review-g304138-d12957014-Reviews-Cafe_the_Vibe-Kandy_Kandy_District_Central_Province.html" target="_blank">
+                            <button class="mb-2" style="background-image: url('Resources/Images/4691228_tripadvisor_icon.png')"></button>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="fot">
+                    <div class="fot1">Copyright © 2023 Cafe The Vibe</div>
+                    <div class="fot2">Powered by DynamicBiz</div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="JavaScript/script.js"></script>
+    <script>
+        window.addEventListener('scroll', (event) => {
+            const rect = document.getElementById("about").getBoundingClientRect();
+            const rect4 = document.getElementById("party").getBoundingClientRect();
+            const rect5 = document.getElementById("review").getBoundingClientRect();
+            const rect6 = document.getElementById("footer").getBoundingClientRect();
+
+            if (rect.top <= window.innerHeight) {
+                document.getElementById("about").className = "about-animation";
+            }
+
+            if (rect4.top <= window.innerHeight) {
+                document.getElementById("party").className = "party-div";
+            }
+            if (rect5.top <= window.innerHeight) {
+                document.getElementById("review").className = "reviews-animation";
+            }
+            if (rect6.top <= window.innerHeight) {
+                let ele = (document.getElementById("footer"));
+                let span = ele.getElementsByTagName("span");
+                for (i = 0; i < span.length; i++) {
+                    span[i].className = "span-ani";
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
